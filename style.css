@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar-brand{
+    margin-left: 100px;
+    font-size: 80px;
+}
+.nav-link{
+
+font-size: 30px;
+padding: 20px;
+margin-left: 20px;
+}
+.nav-link:hover{
+    background-color: #535151;
+    border-radius:10px 20px;
+    text-decoration:2px underline #fff;
+}
+
+.dropdown-menu{
+    background-color:#fff;
+}
+.text{
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size:350%;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.row{
+    margin-top:20px;
+}
+.col{
+    margin-top: 20%;
+    text-align: center;
+}
+img{
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.para{
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 30px;
+
+}
+.input-group{
+    width:20%;
+   margin:20px;
+  
+}
+#basic-addon1{
+    width: 100px;
+    padding: 15px;
+
+}
+.custom-width{
+    width: 20%;
+}
+.container{
+    background-color: #fff;
+}
+.head2{
+    margin-top: 30%;
+    font-size: 390%;
+    margin-left: 50px;
+    margin-right: 90px;
+    font-family: "Ubuntu", sans-serif;
+     
+}
+.para2{
+    margin-left: 50px;
+    font-weight:lighter;
+    margin-top: 40px;
+    text-align:start;
+    margin-right: 20%;
+    font-size: 18px;
+    
+}
+.btn3{
+    padding: 10px 20px;
+    margin-left: 50px;
+    border: none;
+    background-color: #000;
+}
+.btn3:hover{
+    box-shadow:2px 4px 20px #333;
+}
+.under {
+    margin-left: 20px;
+    color: rgb(47, 46, 46);
+    position: absolute;
+    font-weight: lighter;
+    padding:0;
+    font-size: medium;
+    outline: none;
+    border: none;
+    text-decoration:none;
+    
+}
+.under::after{
+    content: '';
+    cursor: pointer;
+    background-color: #333;
+    width:100%;
+    height: 0.1rem;
+    position: absolute;
+    background: #0b0a0a;
+    left: 0;
+    bottom: 0;
+    margin-left: 1px;
+    margin-top: -10px;
+    
+}
+
+.under:hover::after{
+    
+    
+    transform: scale(0,1);
+    transform-origin: 0% 100%;
+    transition:transform 0.3s ease;
+
+
+}
+.me{
+    margin-left: 30%;
+    margin-top: -18%;
+    background-color: #fff;
+    padding:5px;
+    font-family: "Raleway", sans-serif;
+}
+.rock{
+  margin-top: 10px;
+  margin-bottom: 3px;
+  margin-left: 9px;
+   
+}
+.mine{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size:250%;
+    
+    
+}
+
+.she{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    width:570px;
+    height:200px;
+    margin-top: -5px;
+    box-shadow: 2px 2px 10px #000;
+}
+.she:hover{
+    transform: scale(1,1.2);
+    transition: 0.3s;
+}
+.row2{
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    margin: 10px;
+    background-color:#dad5d5;
+}
+.remo{
+    padding-top:-20%;
+    background-color: #fff;
+    margin-left: 84%;
+}
+
+.qq{
+    margin-left:12%;
+
+}
+.pp{
+    margin-left:12%;
+    
+
+}
+.lex{
+    margin-top:-17px;
+    margin-left: 31%;
+    
+}
+.remo:hover{
+    padding-left: 20px;
+}
+.color{
+    color: #fff;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    padding-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-bottom-left {
+    flex: 1;
+}
+
+.logo {
+    height: 30px;
+}
+
+.footer-bottom-right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a i {
+    height: 30px;
+    padding: 10px;
+    
+}
+
+.legal-links {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.legal-links li {
+    margin: 0 10px;
+}
+
+.legal-links li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.legal-links li a:hover {
+    text-decoration: underline;
+}
+
+.country-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.country-selector i {
+    height: 16px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.six{
+    margin-left:9% ;
+    padding: 20px;
+    font-size: 30px;
+}
+.seven{
+    margin-left:8% ;
+    padding: 32px;
+    font-weight: lighter;
+    font-size:medium;
+    color: #757575;
+}
+.v{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    
+}
+.pad{
+    padding-bottom:-30px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 300px;
+}
+
+
+
+
+
+.ride-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.ride-form input {
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 8px;
+    margin-left: 37%;
+    margin-bottom: 10px;
+}
+
+.input-location {
+    background: #fff url('path/to/location-icon.png') no-repeat 10px center;
+    padding-left: 40px;
+}
+
+.input-destination {
+    background: #fff url('path/to/destination-icon.png') no-repeat 10px center;
+    padding-left: 40px;
+}
+
+.see-prices {
+    display: block;
+    width: 36%;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 37%;
+}
+.see-prices:hover{
+    background-color: #5f5c5c;
+    color: #fff;
+}
+
+
+
+
